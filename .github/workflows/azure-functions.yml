@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9.5'  # Ajusta la versión de Python según tus necesidades
+          python-version: '3.11'  # Ajusta la versión de Python según tus necesidades
 
       - name: Install dependencies
         run: |
@@ -36,3 +36,6 @@ jobs:
         with:
           app-name: 'merch-bot'
           package: 'functionapp.zip'
+      
+      - name: Verify installed packages
+        run: pip list
