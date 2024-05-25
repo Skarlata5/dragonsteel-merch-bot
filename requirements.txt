@@ -4,4 +4,3 @@ tweepy
 azure-functions
 datetime
 logging
-json
