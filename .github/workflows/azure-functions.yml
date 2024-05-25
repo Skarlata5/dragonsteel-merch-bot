@@ -26,11 +26,6 @@ jobs:
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-      
-      - name: Check AzureWebJobsStorage configuration
-        run: |
-          az functionapp config appsettings list --name merch-bot --resource-group bot-rg
-          az functionapp config appsettings set --name merch-bot --resource-group bot-rg --settings AzureWebJobsStorage=${{ secrets.AZURE_WEBJOBS_STORAGE }}
 
       - name: Deploy to Azure Functions
         uses: Azure/functions-action@v1
