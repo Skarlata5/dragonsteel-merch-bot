@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "API_KEY": "BBUL2EO7Vb0scZvo2z2M7VKQg",
+      "API_SECRET_KEY": "nXBoFeh0IIc3MhcYw3fx32crVZBz78XmOiDW5NjxWhJy1ucIOM",
+      "ACCESS_TOKEN": "1793421056801419265-JjthxVJEu3kM33IpyEJrtKPgGSUlmj",
+      "ACCESS_TOKEN_SECRET": "Uqfw7Zf1QmDuViF5HJMb0iPNMwk9SxJw05cBqVEbGeplL",
+      "CLIENT_ID": "NVpuZ3Y5T2lQdVR0Q0lCRmw5MGc6MTpjaQ",
+      "CLIENT_SECRET": "RI0GsV8acxds--DHdHrA4AHtFmXWYcrCRLrkf38V5ILb7ubfuA",
+      "BEARER_TOKEN": "AAAAAAAAAAAAAAAAAAAAAK7btwEAAAAAXqIZzOP35RvcQJmNe3odmTdDYFI%3DtJwWMgo8M9z3ucCzywL1xdr0lnWNiEzXWfJiSosjlafFuZfveh"
+    }
+  }
+  
