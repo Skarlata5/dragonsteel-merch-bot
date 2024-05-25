@@ -1,4 +1,3 @@
-import sys
 import datetime
 import logging
 from bs4 import BeautifulSoup
@@ -160,10 +159,6 @@ def verificar_status(productos):
         count += 1
 
 def main(mytimer: func.TimerRequest) -> None:
-
-    # Imprimir sys.path
-    logging.info(f"sys.path: {sys.path}")
-
     utc_timestamp = datetime.datetime.utcnow().replace(
         tzinfo=datetime.timezone.utc).isoformat()
     logging.info('Python timer trigger function ran at %s', utc_timestamp)
