@@ -1,11 +1,11 @@
 import datetime
 import logging
-import requests
 from bs4 import BeautifulSoup
 import tweepy
 import json
 import os
 import azure.functions as func
+import requests
 
 # Configuración de la API de Twitter
 API_KEY = os.getenv('API_KEY')
