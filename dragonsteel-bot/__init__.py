@@ -155,7 +155,6 @@ def verificar_status(productos):
                 # Cambiar el estado a 'in stock' si estaba agotado pero ahora no lo está
                 catalogo[nombre]['status'] = 'in stock'
                 publicar_en_twitter(tweet_back, imagen_url)
-        #time.sleep(10)
         guardar_catalogo(catalogo)
         count += 1
 
