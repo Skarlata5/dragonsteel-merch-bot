@@ -3,6 +3,4 @@ logging
 requests
 beautifulsoup4
 tweepy
-json
-os
 azure-functions
