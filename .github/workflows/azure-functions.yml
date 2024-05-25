@@ -17,14 +17,14 @@ jobs:
         with:
           python-version: '3.11'  # Ajusta la versión de Python
 
-      - name: Install dependencies
+      - name: Install pipenv
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      
-      - name: Zip the function app
+          pip install pipenv
+    
+      - name: Install dependencies
         run: |
-          zip -r functionapp.zip .
+          pipenv install --ignore-pipfile
 
       - name: 'Login via Azure CLI'
         uses: azure/login@v1
