@@ -1,7 +1,7 @@
 datetime
 logging
 requests
-BeautifulSoup
+beautifulsoup4
 tweepy
 json
 os
