@@ -26,7 +26,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: '<YOUR-FUNCTION-APP-NAME>'
+          app-name: 'merch-bot'
           package: '.'
         env:
-          AZURE_FUNCTIONAPP_PUBLISH_PROFILE: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
+          AZURE_FUNCTIONAPP_PUBLISH_PROFILE: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_32B2CD049031495D9092BF9679C530C7 }}
