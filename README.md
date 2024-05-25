@@ -26,40 +26,38 @@ This repository contains a Python script designed to track product availability 
 
 2. Create a virtual environment and activate it:
 
-  ```bash python -m venv venv source venv/bin/activate
+   ```bash
+   git clone https://github.com/yourusername/twitter-product-tracker.git
+   cd twitter-product-tracker
 
 3. Install the required dependencies:
 
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+   git clone https://github.com/yourusername/twitter-product-tracker.git
+   cd twitter-product-tracker
 
 4. Set up environment variables for Twitter API credentials:
 
    ```bash
-    export API_KEY='your_api_key'
-    export API_SECRET_KEY='your_api_secret_key'
-    export ACCESS_TOKEN='your_access_token'
-    export ACCESS_TOKEN_SECRET='your_access_token_secret'
-    export BEARER_TOKEN='your_bearer_token'
+   git clone https://github.com/yourusername/twitter-product-tracker.git
+   cd twitter-product-tracker
 
 On Windows, use set instead of export.
 
 ## Configuration
 The URL of the online store to be tracked is hardcoded in the script. Modify the url variable as needed:
 
-python
-Copiar código
-url = 'https://www.dragonsteelbooks.com/collections/all'
-Usage
-Running the Script
-You can run the script manually or set it up as an Azure Function for scheduled execution.
+   ```bash
+   git clone https://github.com/yourusername/twitter-product-tracker.git
+   cd twitter-product-tracker
 
-Manually
-Run the script:
+## Manually
+1. Run the script:
 
-bash
-Copiar código
-python script.py
+   ```bash
+   git clone https://github.com/yourusername/twitter-product-tracker.git
+   cd twitter-product-tracker
+
 As an Azure Function
 Deploy the script as an Azure Function. The main function is designed to be triggered by a timer.
 Script Overview
